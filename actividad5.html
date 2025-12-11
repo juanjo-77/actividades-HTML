@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga intergalactica</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="imagenes/images.jpeg">
+</head>
+
+<body>
+    <h1>Liga Intergalactica</h1>
+    <h2>Centro de reclutamiento universal</h2>
+
+
+    <form action="#" method="post">
+
+            <label for="nombre">Nombre completo: </label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+
+            <label for="especie">Especie: </label>
+            <input type="text" id="especie" name="especie" required>
+            <br><br>
+
+            <label for="correo">Correo Intergalactico: </label>
+            <input type="email" id="correo" name="correo" required>
+            <br><br>
+
+            <label for="poder">Nivel de poder: </label>
+            <input type="number" id="poder" name="poder" required>
+            <br><br>
+
+            
+        <label for="mision">Tipo de mision solicitada: </label>
+        <select name="mision" id="mision" required>
+            <option value="">selecciona</option>
+            <option value="rescate">Mision de rescate</option>
+            <option value="exploracion">Exploracion espacial</option>
+            <option value="Combate">Combate</option>
+            <option value="Investigacion">Investigación</option>
+        </select>
+        <br><br>
+
+        <fieldset>
+            <legend>Habilidades especiales</legend>
+
+            <input type="checkbox" id="teletransportacion" name="habilidades" value="teletransportacion">
+            <label for="teletransportacion">Teletransportacion</label>
+
+            <input type="checkbox" id="telepatia" name="habilidades" value="telepatia">
+            <label for="telepatia">Telepatía</label>
+
+            <input type="checkbox" id="superfuerza" name="habilidades" value="superfuerza">
+            <label for="superfuerza">Super fuerza</label>
+
+            <input type="checkbox" id="" name="habilidades" value="vuelo">
+            <label for="vuelo">Vuelo</label>
+            
+        </fieldset>
+        <br>
+
+        <label for="motivo">Motivo de ingreso: </label>
+        <br>
+        <textarea name="motivo" id="motivo" rows="5" cols="50" required></textarea>
+        <br><br>
+
+        <input type="checkbox" id="normas" name="normas" required>
+        <label for="normas">Acepto las normas univesales de la Liga Intergalactica</label>
+        <br><br>
+
+        <button type="submit">Enviar solicitud</button>
+
+    </form>
+
+    <hr>
+
+    <section>
+        <h2>Horario de reclutamiento</h2>
+
+        
+        <table border="1">
+
+            <tr>
+                <th>Dia</th>
+                <th>Hora</th>
+                <th>Planeta</th>
+            </tr>
+
+            <tr>
+                <td>Lunes</td>
+                <td>4:00 pm</td>
+                <td>Tierra</td>
+            </tr>
+
+            <tr>
+                <td>Martes</td>
+                <td>3:00 pm</td>
+                <td>Marte</td>
+            </tr>
+
+            <tr>
+                <td>Miercoles</td>
+                <td>2:00 pm</td>
+                <td>Mercurio</td>
+            </tr>
+
+            <tr>
+                <td>Jueves</td>
+                <td>1:00 pm</td>
+                <td>Jupiter</td>
+            </tr>
+
+            <tr>
+                <td>Viernes</td>
+                <td>11:00 am</td>
+                <td>Venus</td>
+            </tr>
+
+        </table>
+
+        <br>
+
+    </section>
+
+    <hr>
+
+    <section>
+        <li><a href="index.html">Volver a la pagina pricipal</a></li>
+    </section>
+    
+
+
+</body>
+
+</html>
